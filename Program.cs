@@ -7,17 +7,13 @@ namespace AbstracaoPOO
     {
         static void Main(string[] args)
         {
-             CartaoCredito visa = new CartaoCredito();
-
-            System.Console.WriteLine("Digite a data do pagamento");
-            visa.data = DateTime.Parse( Console.ReadLine() );
-            System.Console.WriteLine("Data digitada: "+visa.data);
+            CartaoCredito visa = new CartaoCredito();
             
             System.Console.WriteLine();
 
             Console.WriteLine("Digite o valor para pagar:");
-            Console.ReadLine();
-            System.Console.WriteLine(visa.Pagar());
+            float valorProd = float.Parse(Console.ReadLine());
+            System.Console.WriteLine(visa.Pagar(valorProd));
 
             System.Console.WriteLine();
 

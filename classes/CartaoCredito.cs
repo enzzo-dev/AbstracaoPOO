@@ -1,3 +1,5 @@
+using System;
+
 namespace AbstracaoPOO
 {
     public class CartaoCredito : Cartao
@@ -10,6 +12,10 @@ namespace AbstracaoPOO
         }
         public string BloquearCartaoDeCredito(){
             return "Cartão de Crédito bloqueado";
+        }
+
+        public string Pagar(float valor){
+           return "Valor pago com sucesso!";
         }
     }
 }
