@@ -1,6 +1,6 @@
 namespace AbstracaoPOO.classes
 {
-    public class Boleto
+    public class Boleto : Pagamento
     {
         public int codigoDeBarras;
 

@@ -4,6 +4,8 @@ namespace AbstracaoPOO
 {
     public class CartaoCredito : Cartao
     {
+
+        public DateTime data = DateTime.Now;
         public float limite { get; set; }
         public float acrescimo { get; set; }
 
@@ -15,7 +17,9 @@ namespace AbstracaoPOO
         }
 
         public string Pagar(float valor){
-           return "Valor pago com sucesso!";
+       
+                return "Valor pago com sucesso!";
+ 
         }
     }
 }

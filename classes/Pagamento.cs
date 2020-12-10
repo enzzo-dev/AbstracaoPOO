@@ -2,7 +2,7 @@ using System;
 
 namespace AbstracaoPOO
 {
-    abstract class Pagamento
+    public class Pagamento
     {
         //get = permissão de leitura da variável
         //set = permissão de escrita da variável

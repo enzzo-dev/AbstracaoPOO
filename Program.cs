@@ -22,6 +22,8 @@ namespace AbstracaoPOO
             System.Console.WriteLine("Seu novo limite: ");
             Console.WriteLine(visa.AumentarLimite(5000, visa.acrescimo));
 
+            System.Console.WriteLine($"O valor total é R${valorProd}, compre realizada em {visa.data}");
+
             
         }
     }
